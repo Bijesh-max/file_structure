@@ -1,0 +1,19 @@
+employee_management/
+│-- 📂 assets/               # Store images, icons, and uploaded files  
+│-- 📂 database/             # Database-related scripts  
+│   │-- database.py          # PostgreSQL connection & table creation  
+│   │-- queries.py           # SQL queries (Insert, Update, Search, etc.)  
+│-- 📂 gui/                  # GUI components  
+│   │-- login.py             # Login system  
+│   │-- dashboard.py         # Main dashboard window  
+│   │-- master_form.py       # Employee registration form  
+│   │-- employee_details.py  # Search, view, and print employee data  
+│   │-- leave_rejoin.py      # Leave & rejoin details form  
+│-- 📂 reports/              # PDF & report generation  
+│   │-- pdf_generator.py     # Generate A4 PDF reports  
+│-- 📂 utils/                # Helper functions  
+│   │-- validations.py       # Input validation functions  
+│   │-- config.py            # Configuration settings (DB credentials)  
+│-- main.py                  # Main application file (Runs the system)  
+│-- requirements.txt         # Dependencies (psycopg2, tkinter, reportlab, etc.)  
+│-- README.md                # Documentation  
